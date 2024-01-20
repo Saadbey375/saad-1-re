@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment Form</title>
+    <style>
+        body {
+            background-color: rgba(153, 166, 166, 0.849);
+        }
+        nav {
+           height: 65px;
+           background-color: white;
+        }
+        nav a {
+        float: right;
+        color: rgb(250, 89, 25);
+       }
+        input, textarea, select,div.radio-btn {
+            display: block;
+            align-content: center;
+            justify-content: center;
+            height: 24px;
+            width: 500px;
+            margin-left: 170px;
+           position: relative;
+           bottom: 18px;
+           border-radius: 4px;
+        }
+        textarea {
+            height: auto;
+        }
+        div.radio-btn {
+           display: flex;
+            width: 15px;
+            height: 25px;
+            margin-left: 220px;
+        }
+        .radio-btn input {
+            top: -5px;
+            margin-left: 10px;
+        }
+        div.check-box {
+            margin-left: 190px;
+        }
+        .check-box input {
+            height: auto;
+            width: auto;
+            margin-left: -18px;
+        }
+        .check-box label {
+            position: relative;
+            bottom: 36px;
+        }
+        button {
+            height: 40px;
+            width: 104px;
+            background-color: rgb(14, 181, 14);
+            color: white;
+            border: 0px;
+            border-radius: 10px;
+        }
+   
+    
+    </style>
+</head>
+<body>
+   <!--Only Muhammad Saad-->
+    <nav>
+        <a href=""><h2>Student Registration Form</h2></a>
+    </nav>
+    
+        <div class="all-inputs">
+            <label for="Name">First Name:</label>
+            <input type="text" placeholder="Enter your first name">
+
+            <label for="Last Name">Last Name:</label>
+            <input type="text"  placeholder="Enter your last name">
+
+            <label for="email">Email:</label>
+            <input type="email"  placeholder="It should contain @">
+
+            <label>Mobile:</label>
+            <input type="number"  placeholder="Only 10 digits allowed!">
+
+            <label for="Gender">Gender:</label>
+            <div class="radio-btn">
+            <input type="radio">  
+            <label for="Male">Male</label>
+            <input type="radio">  
+            <label for="Female">Female</label>
+          </div>
+
+            <label for="Date">Date of Birth:</label>
+            <input type="date">
+
+            <label for="Address">Address:</label>
+            <textarea cols="55" rows="10"></textarea>
+
+            <label for="City">City:</label>
+            <input type="text">
+
+            <label>Area Pin:</label>
+            <input type="number">
+
+            <label for="State">State:</label>
+            <input type="text">
+
+            <label for="Qualification">Qualification:</label>
+            <select>
+                <option>Select Qualification</option>
+                <option></option>
+            </select>
+
+            <label for="Specialization">Specialization:</label>
+            <div class="check-box">
+                
+            <input type="checkbox"><label for="Computer">Computer Science</label>
+            <input type="checkbox"><label for="Information">Information Technology</label>
+            <input type="checkbox"><label for="Architecture">Computer Architecture</label>
+            <input type="checkbox"><label for="tele Communication">Tele Communication</label>
+            </div>
+
+            <label for="password">Password:</label>
+            <input type="password">
+
+            <button type="submit">Registered</button>
+            
+        </div>    
+</body>
+</html>
