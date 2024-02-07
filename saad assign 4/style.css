@@ -1,0 +1,108 @@
+._____menu____container____ {
+    background-color: rgba(199, 194, 183, 0.279);
+}
+.Menu-Header a {
+    margin-left: 45px;
+}
+.nav-bar {
+    margin-left: 25%;
+}
+.Menu-Header .logo {
+    font-size: 2em;
+    margin-left: 0px;
+    font-weight: bold;
+}
+.Menu-Header img {
+    position: relative;
+    top: 10px;
+}
+.nav-name {
+    text-decoration: none;
+    color: black;
+    font-size: 1.4em;
+}
+.nav-button ,.Shop-button {
+    height: 30px;
+    background: rgb(255, 47, 0);
+    color: white;
+    border: none;
+}
+.Menu-Body img {
+    float: right;
+    margin-top: -40px;
+}
+.Welcome {
+    margin-top: 120px;
+    width: 40%;
+}
+.Contact-button ,.Fuits-img button {
+    height: 30px;
+    background: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    border: none;
+
+}
+.Services-Header {
+    margin-top: 140px;
+    text-align: center;
+}
+.Fuits-img img {
+    float: right;
+    margin-top: -110px;
+}
+.Fuits-img p {
+    width: 45%;
+}
+.Fuits-img p ,.Fuits-img h2 , .Fuits-img button {
+    margin-top: 80px;
+}
+.Testimonial-Body {
+    margin-top: 160px;
+    text-align: center;
+}
+.Testimonial-Body p {
+    padding: 0px 90px 0px 90px;
+}
+.Contact-Inputs {
+    margin-top: 180px;
+}
+.Contact-Inputs img {
+    float: right;
+}
+.Contact-Inputs form input {
+    margin-top: 50px;
+    width: 35%;
+    border: none;
+    border-bottom: 1px solid grey;
+}
+.Contact-Inputs form input.button {
+    width: 80px;
+    height: 30px;
+    background: rgb(255, 47, 0);
+    color: white;
+    border: none;
+}
+.List-Body {
+    margin-top: 250px;
+    display: inline-flex;
+}
+.List-Body div {
+    width: 10%;
+    padding: 6%;
+}
+.List-Body span.Follow {
+    width: 80%;
+}
+.List-Body span button {
+    width: 80px;
+    height: 30px;
+    background: rgb(255, 47, 0);
+    color: white;
+    border: none;
+}
+.Footer {
+    text-align: center;
+    height: 90px;
+    padding-top: 40px;
+    background-color: rgb(227, 204, 187);
+}
