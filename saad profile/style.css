@@ -1,0 +1,327 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body {
+    background: #011e32;
+    margin-left: 5%;
+    margin-right: 2%;
+}
+nav {
+    margin-left: 37%;
+    margin-right: 20px;
+}
+.navigation .logo {
+    text-decoration: none;
+    color: #00ffd9;
+    font-weight: 900;
+    font-size: 1.8em;   
+    border: 2px solid#00ffd9;
+    border-radius: 50%;
+    margin-left: 5%;
+}
+nav a {
+    text-decoration: none;
+    font-size: 1.4em;
+    font-family: monospace;
+    color:#ffffffc2;
+    margin-left: 25px;
+ }
+ nav a:hover {
+    color: #00ffd9;
+}
+.numbers {
+    color: #00ffd9;
+
+    font-family: monospace;
+}
+.resumebutton ,.gettouchbutton ,.showbutton {
+    height: 40px;
+    width: 140px;
+    font-size: 1em;
+    border: 1px solid   #00ffd9;
+    color: #00ffd9;
+    background: transparent;
+}
+.showbutton {
+    margin-bottom: 50px;
+}
+.resumebutton:hover, .showbutton:hover {
+    background:  rgba(8, 240, 205, 0.11);
+}
+.gettouchbutton:hover {
+    background:  rgba(8, 240, 205, 0.11);
+}
+.Container-Text {
+    margin-top: 60px;
+    width: 50%;
+}
+.Container-Text h1 {
+    font-size: 3em;
+    color: aliceblue;
+}
+.Container-Text .h1-2 {
+    color: #f0f8ffa0;
+}
+.Container-Text .p1 ,.smit {
+    color:  #00ffd9;
+}
+.Container-Text p {
+    color:#ffffff87;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    line-height: 1.6em;
+}
+.Container-about {
+    margin-top: 150px;
+}
+.Container-about h2 {
+    color: aliceblue;
+}
+.Container-about .side-img {
+    height: 450px;
+    width: 250px;
+    outline: 2px solid #00ffd9;
+    outline-offset: 10px;
+    float: right;
+    margin-right: 150px;
+}
+.Container-about p {
+    width: 55%;
+    color:#ffffff90;
+    letter-spacing: 1.5px;
+    word-spacing: 2.5px;
+    line-height: 1.4em;
+}
+.tech-list-container {
+    margin-top: 30px;
+    display: flex;
+}
+.list-name {
+    color:#ffffff90;
+    font-family: monospace;
+    font-size: 1.2em;
+}
+.symbol {
+    display: block;
+}
+.tech-list-container-2 {
+    margin-left: 80px;
+}
+.work {
+    color: #b6d8f5cb;
+    margin-top: 100px;
+}
+.worked-container {
+    display: flex;
+}
+.bar-list {
+    color:#c1d3e2cb;
+    margin-left: 90px;
+    border-left: 1px solid #c0d4d6e3;
+    width: 10%;
+    height: 150px;
+    margin-top: 70px;
+}
+.bar-list-detail {
+    margin-left: 100px;
+    margin-top: 70px;
+    width: 55%;
+}
+.bar-list p {
+    width: 100px;
+    padding-top: 10px;
+    height: 40px;
+    text-align: center;
+}
+.smit1 {
+    border-left: 3px solid #00ffd9;
+    color: #00ffd9;
+    background:  rgba(8, 240, 205, 0.11);
+}
+.bar-p {
+    color:#d0e8ffe7;
+}
+.courses {
+    color: #00ffd9;
+    font-size: 1.4em;
+}
+.some-container {
+    color:#badaf5cb;
+    margin-top: 100px;
+}
+.some-container-img {
+    margin-top: 100px;
+}
+.some-img-1 {
+    margin-left: 400px;
+    z-index: -1;
+    height: 320px;
+    width: 650px;
+    background-size: cover;
+    background-image: url('./photos/AIPodcasteGeneratorShaded.3fdf48f2afca6d0087c6.jpg');
+}
+.some-img-1:hover{   
+    background-image: url('./photos/AIPodcasteGenerator.cf943fff109f713cc4d2.png');
+    background-size: cover; 
+}
+.some-text {
+    background-color: #01274e;
+    font-size: 1.2em;
+    width: 600px;
+    position: relative;
+    bottom: 200px;
+    border-radius: 5px;
+}
+.t-bg {
+    position: relative;
+    bottom: 200px;
+}
+.some-img-2 {
+    margin-left: 200px;
+    background: url('./photos/JAVADSAShaded.e2e840d0ad40decf0dc0.png');
+    background-size: cover; 
+}
+.some-img-2:hover {
+    background: url('./photos/JAVADSA.8c9bdb266568538ad724.png');
+    background-size: cover; 
+}
+.some-text-2 {
+    margin-left: 600px;
+}
+.h22 ,.numbers-2 {
+    float: right;
+    margin-right: 200px;
+}
+.some-img-3 {
+    background: url('./photos/BankAppShaded.a961548295e39efa458b.png');
+    background-size: cover; 
+}
+.some-img-3:hover {
+    background: url('./photos/BankApp.0bcd60851e9dccf3ad99.png');
+    background-size: cover; 
+}
+.some-img-4 {
+    margin-left: 200px;
+    background: url('./photos/RealEstateMobileAppShaded.6e1b5c293525fdf39efb.png');
+    background-size: cover; 
+}
+.some-img-4:hover {
+    background: url('./photos/RealEstateMobileApp.a15ba87c3fca2dcc6fab.png');
+    background-size: cover; 
+}
+.some-img-5 {
+    background: url('./photos/CRUDMERNShaded.7f6374849f5b101c2181.png');
+    background-size: cover; 
+}
+.some-img-5:hover {
+    background: url('./photos/CRUDMERN.3c8484a5f6779095def5.png');
+    background-size: cover; 
+}
+.some-img-6 {
+    margin-left: 200px;
+    background: url('./photos/MERN-BootcampShaded.425ed99ba42458bfa9f5.jpg');
+    background-size: cover; 
+}
+.some-img-6:hover {
+    background: url('./photos/MERN-Bootcamp.33745c128f550285b402.jpg');
+    background-size: cover; 
+}
+.project-container {
+    display: grid;
+    grid-template-columns: 370px 370px 370px;
+    color: #f0f8ffd3;
+    grid-template-rows: 350px 350px 350px;
+    grid-gap: 20px;
+    justify-content: space-evenly;
+}
+.project-1 {
+    background-color: rgb(1, 39, 78);
+    transition: 1s;
+}
+.project-1:hover {
+    margin-top: -20px;
+    margin-bottom: 20px;
+}
+.other-project {
+    color: #f0f8ffd3;
+    text-align: center;
+    font-size: 3em;
+    margin-top: 5%;
+    margin-bottom: 3%;
+}
+.footer-text {
+    text-align: center;
+    color: #f0f8ffd3;
+}
+.footer {
+    text-align: center;
+}
+
+
+@media only screen and (max-width:600px) {
+    .Container-Text {
+        width: 100%;
+        margin: auto;
+    }
+    .Container-about {
+        margin: auto;
+        margin-top: 160px;
+    }
+    .Container-about .side-img {
+        height: 350px;
+        width: 170px;
+        float: none;
+        display: block;
+        margin: auto;
+        margin-top: 90px;
+    }
+    .Container-about p {
+        width: 100%;
+        margin: auto;
+    }
+    .bar-list {
+        margin-left: 0px;
+    }
+    .some-img-1 {
+        margin-left: 00px;
+        height: 200px;
+        width: 400px;
+    }
+    .some-img-2 {
+        margin-top: 30px;
+    }
+    .some-text {
+        margin-top: 10px;
+        width: 400px;
+        bottom: 0px;
+    }
+    .t-bg {
+        bottom: 0px;
+    }
+    .some-text-2 {
+        margin-left: 00px;
+    }
+    .h22 ,.numbers-2 {
+        float: left;
+        margin-right: 0px;
+    }
+    .project-container {
+        grid-template-columns: auto auto;
+        grid-template-rows: auto auto ;
+        margin-bottom: 50px;
+    }
+    .courses {
+        color: #00ffd9;
+        font-size: 1.1em;
+    }
+}
+@media only screen and (max-width:500px) {
+    .project-container {
+        grid-template-columns: auto ;
+        grid-template-rows: auto  ;
+        margin: 50px;
+    }
+}
